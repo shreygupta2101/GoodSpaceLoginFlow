@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570E70042B24B66B00831A7E /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70032B24B66B00831A7E /* TabbarController.swift */; };
+		570E700B2B24BA3000831A7E /* WorkNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E700A2B24BA3000831A7E /* WorkNavigationController.swift */; };
+		570E700D2B24BA8400831A7E /* RecruitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E700C2B24BA8400831A7E /* RecruitNavigationController.swift */; };
+		570E700F2B24BAB500831A7E /* SocialNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E700E2B24BAB500831A7E /* SocialNavigationController.swift */; };
+		570E70112B24BAF000831A7E /* MessageNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70102B24BAEF00831A7E /* MessageNavigationController.swift */; };
+		570E70132B24BB4C00831A7E /* ProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70122B24BB4C00831A7E /* ProfileNavigationController.swift */; };
+		570E70152B24BB9400831A7E /* WorkViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570E70142B24BB9400831A7E /* WorkViewController.storyboard */; };
+		570E70172B24BBBA00831A7E /* RecruitViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570E70162B24BBBA00831A7E /* RecruitViewController.storyboard */; };
+		570E70192B24BBD900831A7E /* SocialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570E70182B24BBD900831A7E /* SocialViewController.storyboard */; };
+		570E701B2B24BBEE00831A7E /* MessageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570E701A2B24BBEE00831A7E /* MessageViewController.storyboard */; };
+		570E701D2B24BBFF00831A7E /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570E701C2B24BBFF00831A7E /* ProfileViewController.storyboard */; };
+		570E701F2B25F86600831A7E /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E701E2B25F86600831A7E /* WorkViewController.swift */; };
+		570E70212B26128800831A7E /* RecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70202B26128800831A7E /* RecruitViewController.swift */; };
+		570E70232B2612EE00831A7E /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70222B2612EE00831A7E /* SocialViewController.swift */; };
+		570E70252B26139A00831A7E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70242B26139A00831A7E /* MessageViewController.swift */; };
+		570E70272B2613EF00831A7E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E70262B2613EF00831A7E /* ProfileViewController.swift */; };
+		57454D4F2B21F8C2009547C1 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57454D4E2B21F8C2009547C1 /* CountryModel.swift */; };
+		575533032B20A4C2003E1342 /* UserVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575533022B20A4C2003E1342 /* UserVerificationViewController.swift */; };
 		57E2CD482B1F517D0096B1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2CD472B1F517D0096B1F1 /* AppDelegate.swift */; };
 		57E2CD4A2B1F517D0096B1F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2CD492B1F517D0096B1F1 /* SceneDelegate.swift */; };
 		57E2CD4C2B1F517D0096B1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2CD4B2B1F517D0096B1F1 /* ViewController.swift */; };
@@ -17,7 +35,8 @@
 		57E2CD622B1F51800096B1F1 /* GoodSpaceTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2CD612B1F51800096B1F1 /* GoodSpaceTaskTests.swift */; };
 		57E2CD6C2B1F51800096B1F1 /* GoodSpaceTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2CD6B2B1F51800096B1F1 /* GoodSpaceTaskUITests.swift */; };
 		57E2CD6E2B1F51800096B1F1 /* GoodSpaceTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2CD6D2B1F51800096B1F1 /* GoodSpaceTaskUITestsLaunchTests.swift */; };
-		57F5471C2B204E1C00E00164 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5471B2B204E1C00E00164 /* LaunchScreen.swift */; };
+		57F547222B205A1C00E00164 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F547212B205A1C00E00164 /* SignUpViewController.swift */; };
+		57F547252B205A9E00E00164 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F547242B205A9E00E00164 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +57,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570E70032B24B66B00831A7E /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		570E700A2B24BA3000831A7E /* WorkNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkNavigationController.swift; sourceTree = "<group>"; };
+		570E700C2B24BA8400831A7E /* RecruitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitNavigationController.swift; sourceTree = "<group>"; };
+		570E700E2B24BAB500831A7E /* SocialNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNavigationController.swift; sourceTree = "<group>"; };
+		570E70102B24BAEF00831A7E /* MessageNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageNavigationController.swift; sourceTree = "<group>"; };
+		570E70122B24BB4C00831A7E /* ProfileNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationController.swift; sourceTree = "<group>"; };
+		570E70142B24BB9400831A7E /* WorkViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WorkViewController.storyboard; sourceTree = "<group>"; };
+		570E70162B24BBBA00831A7E /* RecruitViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecruitViewController.storyboard; sourceTree = "<group>"; };
+		570E70182B24BBD900831A7E /* SocialViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SocialViewController.storyboard; sourceTree = "<group>"; };
+		570E701A2B24BBEE00831A7E /* MessageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageViewController.storyboard; sourceTree = "<group>"; };
+		570E701C2B24BBFF00831A7E /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		570E701E2B25F86600831A7E /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		570E70202B26128800831A7E /* RecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitViewController.swift; sourceTree = "<group>"; };
+		570E70222B2612EE00831A7E /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		570E70242B26139A00831A7E /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		570E70262B2613EF00831A7E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		57454D4E2B21F8C2009547C1 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		575533022B20A4C2003E1342 /* UserVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVerificationViewController.swift; sourceTree = "<group>"; };
 		57E2CD442B1F517D0096B1F1 /* GoodSpaceTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodSpaceTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E2CD472B1F517D0096B1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E2CD492B1F517D0096B1F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +89,8 @@
 		57E2CD672B1F51800096B1F1 /* GoodSpaceTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodSpaceTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E2CD6B2B1F51800096B1F1 /* GoodSpaceTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodSpaceTaskUITests.swift; sourceTree = "<group>"; };
 		57E2CD6D2B1F51800096B1F1 /* GoodSpaceTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodSpaceTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		57F5471B2B204E1C00E00164 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		57F547212B205A1C00E00164 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		57F547242B205A9E00E00164 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +118,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570E70002B24B00400831A7E /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				570E70032B24B66B00831A7E /* TabbarController.swift */,
+				570E700A2B24BA3000831A7E /* WorkNavigationController.swift */,
+				570E700C2B24BA8400831A7E /* RecruitNavigationController.swift */,
+				570E700E2B24BAB500831A7E /* SocialNavigationController.swift */,
+				570E70102B24BAEF00831A7E /* MessageNavigationController.swift */,
+				570E70122B24BB4C00831A7E /* ProfileNavigationController.swift */,
+			);
+			path = tabbarController;
+			sourceTree = "<group>";
+		};
+		570E70022B24B61E00831A7E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				57E2CD4B2B1F517D0096B1F1 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		570E70052B24B73500831A7E /* WorkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				570E70142B24BB9400831A7E /* WorkViewController.storyboard */,
+				570E701E2B25F86600831A7E /* WorkViewController.swift */,
+			);
+			path = WorkViewController;
+			sourceTree = "<group>";
+		};
+		570E70062B24B8A600831A7E /* RecuitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				570E70162B24BBBA00831A7E /* RecruitViewController.storyboard */,
+				570E70202B26128800831A7E /* RecruitViewController.swift */,
+			);
+			path = RecuitViewController;
+			sourceTree = "<group>";
+		};
+		570E70072B24B90400831A7E /* SocialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				570E70182B24BBD900831A7E /* SocialViewController.storyboard */,
+				570E70222B2612EE00831A7E /* SocialViewController.swift */,
+			);
+			path = SocialViewController;
+			sourceTree = "<group>";
+		};
+		570E70082B24B91400831A7E /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				570E701A2B24BBEE00831A7E /* MessageViewController.storyboard */,
+				570E70242B26139A00831A7E /* MessageViewController.swift */,
+			);
+			path = MessageViewController;
+			sourceTree = "<group>";
+		};
+		570E70092B24B93A00831A7E /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				570E701C2B24BBFF00831A7E /* ProfileViewController.storyboard */,
+				570E70262B2613EF00831A7E /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		57454D4C2B21F892009547C1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				57454D4E2B21F8C2009547C1 /* CountryModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		57454D4D2B21F89D009547C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57F547212B205A1C00E00164 /* SignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		575533012B20A46F003E1342 /* UserVerificationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				575533022B20A4C2003E1342 /* UserVerificationViewController.swift */,
+			);
+			path = UserVerificationViewController;
+			sourceTree = "<group>";
+		};
 		57E2CD3B2B1F517D0096B1F1 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +231,10 @@
 		57E2CD462B1F517D0096B1F1 /* GoodSpaceTask */ = {
 			isa = PBXGroup;
 			children = (
+				57F547232B205A8C00E00164 /* Helper */,
 				57E2CD472B1F517D0096B1F1 /* AppDelegate.swift */,
 				57E2CD492B1F517D0096B1F1 /* SceneDelegate.swift */,
-				57E2CD4B2B1F517D0096B1F1 /* ViewController.swift */,
+				57F5471F2B2059CB00E00164 /* Controllers */,
 				57E2CD4D2B1F517D0096B1F1 /* Main.storyboard */,
 				57E2CD532B1F517F0096B1F1 /* Assets.xcassets */,
 				57E2CD582B1F517F0096B1F1 /* Info.plist */,
@@ -136,9 +265,41 @@
 			isa = PBXGroup;
 			children = (
 				57E2CD552B1F517F0096B1F1 /* LaunchScreen.storyboard */,
-				57F5471B2B204E1C00E00164 /* LaunchScreen.swift */,
 			);
 			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		57F5471F2B2059CB00E00164 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				570E70022B24B61E00831A7E /* ViewController */,
+				570E70002B24B00400831A7E /* tabbarController */,
+				575533012B20A46F003E1342 /* UserVerificationViewController */,
+				57F547202B2059F100E00164 /* SignUpViewController */,
+				570E70052B24B73500831A7E /* WorkViewController */,
+				570E70062B24B8A600831A7E /* RecuitViewController */,
+				570E70072B24B90400831A7E /* SocialViewController */,
+				570E70082B24B91400831A7E /* MessageViewController */,
+				570E70092B24B93A00831A7E /* ProfileViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57F547202B2059F100E00164 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				57454D4C2B21F892009547C1 /* model */,
+				57454D4D2B21F89D009547C1 /* View */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		57F547232B205A8C00E00164 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				57F547242B205A9E00E00164 /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +406,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570E701D2B24BBFF00831A7E /* ProfileViewController.storyboard in Resources */,
+				570E70172B24BBBA00831A7E /* RecruitViewController.storyboard in Resources */,
 				57E2CD572B1F517F0096B1F1 /* LaunchScreen.storyboard in Resources */,
+				570E701B2B24BBEE00831A7E /* MessageViewController.storyboard in Resources */,
+				570E70192B24BBD900831A7E /* SocialViewController.storyboard in Resources */,
 				57E2CD542B1F517F0096B1F1 /* Assets.xcassets in Resources */,
+				570E70152B24BB9400831A7E /* WorkViewController.storyboard in Resources */,
 				57E2CD4F2B1F517D0096B1F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +438,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570E701F2B25F86600831A7E /* WorkViewController.swift in Sources */,
 				57E2CD4C2B1F517D0096B1F1 /* ViewController.swift in Sources */,
 				57E2CD482B1F517D0096B1F1 /* AppDelegate.swift in Sources */,
-				57F5471C2B204E1C00E00164 /* LaunchScreen.swift in Sources */,
+				570E70232B2612EE00831A7E /* SocialViewController.swift in Sources */,
+				570E70212B26128800831A7E /* RecruitViewController.swift in Sources */,
+				570E700D2B24BA8400831A7E /* RecruitNavigationController.swift in Sources */,
+				570E70042B24B66B00831A7E /* TabbarController.swift in Sources */,
+				570E70132B24BB4C00831A7E /* ProfileNavigationController.swift in Sources */,
+				57454D4F2B21F8C2009547C1 /* CountryModel.swift in Sources */,
+				570E70272B2613EF00831A7E /* ProfileViewController.swift in Sources */,
+				570E70112B24BAF000831A7E /* MessageNavigationController.swift in Sources */,
+				570E70252B26139A00831A7E /* MessageViewController.swift in Sources */,
 				57E2CD522B1F517D0096B1F1 /* GoodSpaceTask.xcdatamodeld in Sources */,
 				57E2CD4A2B1F517D0096B1F1 /* SceneDelegate.swift in Sources */,
+				570E700B2B24BA3000831A7E /* WorkNavigationController.swift in Sources */,
+				570E700F2B24BAB500831A7E /* SocialNavigationController.swift in Sources */,
+				57F547222B205A1C00E00164 /* SignUpViewController.swift in Sources */,
+				575533032B20A4C2003E1342 /* UserVerificationViewController.swift in Sources */,
+				57F547252B205A9E00E00164 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +641,8 @@
 				DEVELOPMENT_TEAM = NPRT865TP9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoodSpaceTask/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This uses the location for user authentication.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app uses location user login autherisation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -489,6 +671,8 @@
 				DEVELOPMENT_TEAM = NPRT865TP9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoodSpaceTask/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This uses the location for user authentication.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app uses location user login autherisation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
